@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Medicare</string>
+    <string name="health_tagline">Your health, simplified.</string>
+    <string name="add_medicine">Add Medicine</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="dosage_hint">Dosage (e.g., 500mg)</string>
+    <string name="schedule">Schedule</string>
+    <string name="select_time">Select Date &amp; Time</string>
+    <string name="meal_preference">Meal preference</string>
+    <string name="before_meal">Before Meal</string>
+    <string name="after_meal">After Meal</string>
+    <string name="save_medicine">Save Medicine</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="logout">Logout</string>
+    <string name="hospital_connectivity">Hospital Connect</string>
+    <string name="family_connect">Family Connect</string>
+    <string name="reminder_history">History</string>
+
+    <!-- Health Tips -->
+    <string-array name="health_tips">
+        <item>💧 Stay hydrated! Drink at least 8 glasses of water daily for better health.</item>
+        <item>🏃 30 minutes of daily exercise can reduce heart disease risk by 50%.</item>
+        <item>😴 Quality sleep of 7–8 hours helps your body heal and recover faster.</item>
+        <item>🍎 An apple a day keeps the doctor away — eat more fruits and vegetables!</item>
+        <item>🧘 Take 5 minutes to breathe deeply — it reduces stress and lowers blood pressure.</item>
+        <item>💊 Always take your medicines on time — consistency is key to recovery.</item>
+        <item>🌞 Get 15 minutes of morning sunlight for natural Vitamin D.</item>
+        <item>🥗 A balanced diet is the foundation of good health. Include proteins, carbs, and healthy fats.</item>
+        <item>🚶 Walking 10,000 steps a day improves cardiovascular health and mood.</item>
+        <item>🧠 Keep your mind active — read, solve puzzles, and learn something new every day.</item>
+        <item>🦷 Brush twice a day and floss daily for healthy teeth and gums.</item>
+        <item>🧴 Wash your hands frequently to prevent infections and stay healthy.</item>
+        <item>🫀 Regular health checkups help detect problems early. Don\'t skip them!</item>
+        <item>🍵 Green tea is rich in antioxidants — replace one cup of coffee with green tea.</item>
+        <item>😊 Laugh more! It boosts your immune system and releases feel-good hormones.</item>
+    </string-array>
+</resources>
