@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Gradient Background Circle (Now filling the entire canvas up to the edges to make it massive and completely visible) -->
+    <path
+        android:pathData="M100,100m-100,0a100,100 0,1,1 200,0a100,100 0,1,1 -200,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="200"
+                android:endY="200"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2CACFF"/>
+                <item android:offset="1.0" android:color="#005BEA"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Enlarge the center elements by wrapping in a scaling group -->
+    <group
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:pivotX="100"
+        android:pivotY="100">
+        
+        <!-- Overlapping Heart inside (Soft transparent white) -->
+        <path
+            android:fillColor="#33FFFFFF"
+            android:pathData="M100,140 C100,140 45,95 45,65 C45,47.5 59.5,35 75.5,35 C86.5,35 95.5,42.5 100,50 C104.5,42.5 113.5,35 124.5,35 C140.5,35 155,47.5 155,65 C155,95 100,140 100,140 Z" />
+
+        <!-- Perfectly geometric medical cross inside the heart (Pure white) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M100,50 L100,120 M65,85 L135,85"
+            android:strokeWidth="16"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"/>
+    </group>
+
+</vector>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"/>
+
+        <!-- App Logo -->
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_app_logo"
+            android:contentDescription="App Logo"/>
+
+        <!-- App Name with premium typography -->
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicare"
+            android:textColor="@color/login_text"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:letterSpacing="-0.03"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your health, simplified."
+            android:textColor="@color/login_hint"
+            android:textSize="15sp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="sans-serif-light"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+
+        <!-- Username Input Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_input_dark"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_myplaces"
+                app:tint="@color/login_hint"/>
+
+            <EditText
+                android:id="@+id/loginUsername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Username"
+                android:textColor="@color/login_text"
+                android:textColorHint="@color/login_hint"
+                android:background="@android:color/transparent"
+                android:paddingStart="12dp"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:importantForAutofill="no"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
+
+        <!-- Password Input Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_input_dark"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_lock_idle_lock"
+                app:tint="@color/login_hint"/>
+
+            <EditText
+                android:id="@+id/loginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Password"
+                android:textColor="@color/login_text"
+                android:textColorHint="@color/login_hint"
+                android:background="@android:color/transparent"
+                android:paddingStart="12dp"
+                android:inputType="textPassword"
+                android:textSize="15sp"
+                android:importantForAutofill="no"/>
+        </LinearLayout>
+
+        <!-- Keep me logged in -->
+        <CheckBox
+            android:id="@+id/keepLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep me logged in"
+            android:textColor="@color/login_hint"
+            android:textSize="13sp"
+            android:layout_gravity="start"
+            android:layout_marginTop="12dp"
+            android:buttonTint="@color/primary"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp"/>
+
+        <!-- Login Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="@color/primary"
+            app:cornerRadius="28dp"
+            android:elevation="4dp"/>
+
+        <TextView
+            android:id="@+id/toSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-medium">
+            <![CDATA[]]>
+        </TextView>
+
+        <!-- Styled with spans in code -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"/>
+
+    </LinearLayout>
+</ScrollView>
