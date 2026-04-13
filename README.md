@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="MediCare+ Banner" width="100%"/>
+  <img src="./assets/banner.png" alt="MediCare+ Banner" width="800"/>
 </p>
 
 # 💊 MediCare+ : Premium Medication Assistant
@@ -7,7 +7,7 @@
 
 <div align="center">
   
-[![Download APK](https://img.shields.io/badge/Download_App-Android_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](./MediCarePlus-App.apk)
+[![Download APK](https://img.shields.io/badge/Download_App-Android_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/omkardev07/MediCarePlus/releases/latest)
   
 </div>
 
