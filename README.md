@@ -7,7 +7,7 @@
 
 <div align="center">
   
-[![Download APK](https://img.shields.io/badge/Download_App-Android_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/omkardev07/MediCarePlus/releases/latest)
+[![Download APK](https://img.shields.io/badge/Download_App-Android_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](./releases/MediCarePlus.apk)
   
 </div>
 
