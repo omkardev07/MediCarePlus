@@ -25,9 +25,9 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvHistory"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="674dp"
         android:padding="8dp"
-        tools:listitem="@android:layout/simple_list_item_2"/>
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@android:layout/simple_list_item_2" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

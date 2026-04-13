@@ -67,8 +67,8 @@ class MainActivity : AppCompatActivity() {
             tvMedicineCount.text = "${medicines.size} active"
 
             if (medicines.isEmpty()) {
-                emptyState.visibility = View.VISIBLE
                 rvMedicines.visibility = View.GONE
+                emptyState.visibility = View.VISIBLE
             } else {
                 emptyState.visibility = View.GONE
                 rvMedicines.visibility = View.VISIBLE
